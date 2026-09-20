@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  app:
+    image: oled-stats
+    restart: on-failure
+    devices:
+      - /dev/i2c-1
+      - /dev/gpiochip0
+      - /dev/nvme0
+      - /dev/nvme0n1
+    cap_add:
+      - SYS_RAWIO
+      - SYS_ADMIN

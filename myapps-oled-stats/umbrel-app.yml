@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: myapps-oled-stats
+category: utilities
+name: OLED Stats
+version: "1.0.0"
+tagline: "CPU/RAM/SSD stats on Argon OLED display"
+description: >
+  Displays CPU temperature, RAM usage and SSD temperature
+  on the Argon Industria V5 OLED module.
+developer: "local"
+website: ""
+dependencies: []
+repo: ""
+support: ""
+port: 0
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: "local"
+submission: ""
