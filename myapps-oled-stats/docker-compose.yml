@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   app:
-    image: oled-stats
+    image: ghcr.io/antonalexeevusa/oled-stats:1.0.0
     restart: on-failure
     devices:
       - /dev/i2c-1
