@@ -2,6 +2,7 @@ manifestVersion: 1.1
 id: myapps-oled-stats
 category: utilities
 name: OLED Stats
+icon: https://raw.githubusercontent.com/AntonAlexeevUSA/umbrel-oled-appstore/main/myapps-oled-stats/icon.png
 version: "1.0.0"
 tagline: "CPU/RAM/SSD stats on Argon OLED display"
 description: >
