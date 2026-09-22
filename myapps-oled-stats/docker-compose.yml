@@ -1,8 +1,12 @@
 version: "3.7"
 services:
   app:
-    image: ghcr.io/antonalexeevusa/oled-stats:1.1.1
+    image: ghcr.io/antonalexeevusa/oled-stats:1.2.0
     restart: on-failure
+    environment:
+      CPU_POLL_INTERVAL: "60"
+      RAM_POLL_INTERVAL: "60"
+      SSD_POLL_INTERVAL: "300"
     devices:
       - /dev/i2c-1
       - /dev/gpiochip0
